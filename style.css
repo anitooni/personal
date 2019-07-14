@@ -3,10 +3,13 @@
 /* CSS Document */
 
 body{
-	font: 20px/1.8 'Open Sans', 'Roboto', 'Gotham', "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 16px/1.6 'Open Sans', 'Roboto', 'Gotham', "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #444444;
 }
 
+li{
+	list-style-type: none;
+}
 .frame{
 	margin: 0 auto;
 }
@@ -104,32 +107,29 @@ body{
 .about_title{
 	font-family: 'Oswald', sans-serif;
 	color: black;
-	font-size: 30px;
+	font-size: 2.5em;
 	font-weight: bold;
-	height: 38px;
+	height: 1.4em;
 	margin-bottom: 0px;
 }
 
 .about_content{
+	margin-top: 10px;
+	margin-bottom: 20px;
 }
 
 .JobTitle{
 	font-family: 'Oswald', sans-serif;
 	color: black;
-	font-size: 24px;
-	font-weight: bold;
+	font-size: 1.5em;
+	margin-top: 5px;
 	margin-bottom: 0px;
 }
 
-.cert_date{
-	margin-top: 18px;
-	font-weight: bold;
-	color: #d44ed9;
-}
-
 .Expertise{
-	height: 50px;
-	margin-top: 0px;
+	font-size: 0.8em;
+	margin-top: 5px;
+	color: gray;
 }
 
 .job_detail{
@@ -139,7 +139,14 @@ body{
 .workdays{
 	font-weight: bold;
 	color: #d44ed9;
-	height: 18px;
+	font-size: 0.75em;
+	margin-bottom: 0px;
+}
+
+.cert_date{
+	font-weight: bold;
+	font-size: 0.75em;
+	color: #d44ed9;
 }
 
 .circle_filled{
@@ -151,6 +158,7 @@ body{
 	border-radius: 10px;
 	background: black;
 	display: inline-block;
+	margin-bottom: 0px;
 }
 
 .circle_blanked{
@@ -163,19 +171,21 @@ body{
 	border: 1px solid black;
 	background: white;
 	display: inline-block;
+	margin-bottom: 0px;
 }
 
 .skill_level{
-	width: 120px;
 	margin-left: 10px;
 	margin-right: 15px;
-	display: inline-block;
+	display: inline;
 	font-weight: bold;
+	font-size: 1em;
 	color: gray;
 }
 
 .skill_sets{
-	display: inline-block;
+	font-size: 1em;
+	margin-bottom: 15px;
 }
 
 /* Projects Page Styles */
