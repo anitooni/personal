@@ -37,18 +37,18 @@ body{
 	overflow: hidden;
 }
 
+.nav{
+	display:none;
+}
 @media (min-width: 578px){
 	.nav{
-		display:none;
-	}
-}
-.nav{
-	margin-top: 30px;
-	border: 1px solid gray;
-	display:inline;
-	position: fixed;
-	float: left;
-	width: 200px;
+		margin-top: 30px;
+		border: 1px solid gray;
+		display:inline;
+		position: fixed;
+		float: left;
+		width: 200px;
+	}	
 }
 
 .nav_content{
