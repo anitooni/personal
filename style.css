@@ -37,11 +37,6 @@ body{
 	overflow: hidden;
 }
 
-@media (min-width: 1280px){
-	.nav{
-		display:none;
-	}
-}
 .nav{
 	margin-top: 30px;
 	border: 1px solid gray;
@@ -49,6 +44,11 @@ body{
 	position: fixed;
 	float: left;
 	width: 200px;
+}
+@media (min-width: 576px){
+	.nav{
+		display:none;
+	}
 }
 
 .nav_content{
