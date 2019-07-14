@@ -37,7 +37,7 @@ body{
 	overflow: hidden;
 }
 
-@media (min-width: 1280px){
+@media (min-width: 578px){
 	.nav{
 		display:none;
 	}
@@ -84,7 +84,7 @@ body{
 	margin-left: 230px;
 	margin-right: 80px;
 }
-@media (min-width: 1280px){
+@media (min-width: 576px){
 	.content{
 		float: left;
 		margin-left: 80px;
