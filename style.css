@@ -38,17 +38,17 @@ body{
 }
 
 .nav{
-	display:none;
+	margin-top: 30px;
+	border: 1px solid gray;
+	display:inline;
+	position: fixed;
+	float: left;
+	width: 200px;
 }
-@media (min-width: 578px){
+@media (min-width: 1280px){
 	.nav{
-		margin-top: 30px;
-		border: 1px solid gray;
-		display:inline;
-		position: fixed;
-		float: left;
-		width: 200px;
-	}	
+		display:none;
+	}
 }
 
 .nav_content{
