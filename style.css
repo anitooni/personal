@@ -7,14 +7,14 @@ body{
 	color: #444444;
 }
 
+.frame{
+	margin: 0 auto;
+}
 @media (min-width: 1024px){
 	.frame{
 		width: 1024px;
 		margin: 0 auto;
 	}
-}
-.frame{
-	margin: 0 auto;
 }
 
 .logo{
@@ -38,19 +38,18 @@ body{
 }
 
 .nav{
-	display:none;
+	margin-top: 30px;
+	border: 1px solid gray;
+	display:inline;
+	position: fixed;
+	float: left;
+	width: 200px;
 }
-@media (min-width: 800px){
+@media (max-width: 800px){
 	.nav{
-		margin-top: 30px;
-		border: 1px solid gray;
-		display:inline;
-		position: fixed;
-		float: left;
-		width: 200px;
+		display:none;
 	}
 }
-
 
 .nav_content{
 	width:100%;
@@ -82,13 +81,13 @@ body{
 
 .content{
 	float: left;
-	margin-left: 80px;
+	margin-left: 230px;
 	margin-right: 80px;
 }
-@media (min-width: 800px){
+@media (max-width: 800px){
 	.content{
 		float: left;
-		margin-left: 230px;
+		margin-left: 80px;
 		margin-right: 80px;
 	}
 }
@@ -108,7 +107,7 @@ body{
 	color: black;
 	font-size: 30px;
 	font-weight: bold;
-	
+	height: 38px;
 	margin-bottom: 0px;
 }
 
