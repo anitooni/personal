@@ -40,12 +40,11 @@ body{
 .nav{
 	margin-top: 30px;
 	border: 1px solid gray;
-	display:inline;
 	position: fixed;
 	float: left;
 	width: 200px;
 }
-@media (min-width: 576px){
+@media (max-width: 576px){
 	.nav{
 		display:none;
 	}
