@@ -3,7 +3,7 @@
 /* CSS Document */
 
 body{
-	font: 14px/1.8 'Open Sans', 'Roboto', 'Gotham', "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 20px/1.8 'Open Sans', 'Roboto', 'Gotham', "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #444444;
 }
 
@@ -40,7 +40,7 @@ body{
 .nav{
 	display:none;
 }
-@media (min-width: 2000px){
+@media (min-width: 800px){
 	.nav{
 		margin-top: 30px;
 		border: 1px solid gray;
@@ -85,7 +85,7 @@ body{
 	margin-left: 80px;
 	margin-right: 80px;
 }
-@media (min-width: 2000px){
+@media (min-width: 800px){
 	.content{
 		float: left;
 		margin-left: 230px;
@@ -106,8 +106,8 @@ body{
 .about_title{
 	font-family: 'Oswald', sans-serif;
 	color: black;
-	height: 30px;
-	font-size: 24px;
+	height: 38px;
+	font-size: 30px;
 	font-weight: bold;
 	margin-bottom: 0px;
 }
@@ -118,19 +118,19 @@ body{
 .JobTitle{
 	font-family: 'Oswald', sans-serif;
 	color: black;
-	font-size: 18px;
+	font-size: 24px;
 	font-weight: bold;
 	margin-bottom: 0px;
 }
 
 .cert_date{
-	margin-top: 10px;
+	margin-top: 18px;
 	font-weight: bold;
 	color: #d44ed9;
 }
 
 .Expertise{
-	height: 10px;
+	height: 50px;
 	margin-top: 0px;
 }
 
@@ -141,7 +141,7 @@ body{
 .workdays{
 	font-weight: bold;
 	color: #d44ed9;
-	height: 10px;
+	height: 18px;
 }
 
 .circle_filled{
@@ -168,7 +168,7 @@ body{
 }
 
 .skill_level{
-	width: 80px;
+	width: 120px;
 	margin-left: 10px;
 	margin-right: 15px;
 	display: inline-block;
@@ -177,7 +177,7 @@ body{
 }
 
 .skill_sets{
-	display: inline;
+	display: inline-block;
 }
 
 /* Projects Page Styles */
