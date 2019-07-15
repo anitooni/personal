@@ -3,7 +3,7 @@
 /* CSS Document */
 
 body{
-	font: 16px/1.6 'Open Sans', 'Roboto', 'Gotham', "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 16px/1.8 'Open Sans', 'Roboto', 'Gotham', "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #444444;
 }
 
@@ -201,7 +201,6 @@ li{
 	margin-top: 20px;
 	margin-right: 20px;
 	float: left;
-	display: inline-block;
 }
 
 .project_detail{
