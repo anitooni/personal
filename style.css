@@ -10,47 +10,13 @@ body{
 li{
 	list-style-type: none;
 }
+
 .frame{
-	margin: 0 auto;
-}
-@media (min-width: 1024px){
-	.frame{
-		width: 1024px;
-		margin: 0 auto;
-	}
-}
-
-.logo{
-	width: 100px;
-	height: 70px;
-	text-align: center;
-	font-size:24px;
-	font-weight: bold;
-	background: gray;
-	color: #fff;
-	display: inline-block;
-}
-
-.logo_container{
-	margin-top: 30px;
-	text-align: center;
+	margin-top: 70px;
 }
 
 .contatiner{
 	overflow: hidden;
-}
-
-.nav{
-	margin-top: 30px;
-	border: 1px solid gray;
-	position: fixed;
-	float: left;
-	width: 200px;
-}
-@media (max-width: 576px){
-	.nav{
-		display:none;
-	}
 }
 
 .nav_content{
@@ -82,14 +48,8 @@ li{
 }
 
 .content{
-	margin-left: 230px;
-	margin-right: 80px;
-}
-@media (min-width: 576px){
-	.content{
 		margin-left: 80px;
 		margin-right: 80px;
-	}
 }
 
 .content_detail{
@@ -107,7 +67,7 @@ li{
 	color: black;
 	font-size: 3.5em;
 	font-weight: bold;
-	height: 2em;
+	height: 1.6em;
 	margin-bottom: 0px;
 }
 
@@ -119,13 +79,13 @@ li{
 .JobTitle{
 	font-family: 'Oswald', sans-serif;
 	color: black;
-	font-size: 1.5em;
+	font-size: 2em;
 	margin-top: 5px;
 	margin-bottom: 0px;
 }
 
 .Expertise{
-	font-size: 0.8em;
+	font-size: 1em;
 	margin-top: 5px;
 	color: gray;
 }
@@ -183,7 +143,7 @@ li{
 
 .skill_sets{
 	font-size: 1em;
-	margin-bottom: 15px;
+	margin-bottom: 25px;
 }
 
 /* Projects Page Styles */
