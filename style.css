@@ -58,7 +58,7 @@ li{
 }
 
 .nav_list{
-	font-size: 20px;
+	font-size: 2em;
 	font-weight: bold;
 	list-style: none;
 	margin: 15px;
@@ -82,13 +82,11 @@ li{
 }
 
 .content{
-	float: left;
 	margin-left: 230px;
 	margin-right: 80px;
 }
 @media (min-width: 576px){
 	.content{
-		float: left;
 		margin-left: 80px;
 		margin-right: 80px;
 	}
@@ -107,9 +105,9 @@ li{
 .about_title{
 	font-family: 'Oswald', sans-serif;
 	color: black;
-	font-size: 2.5em;
+	font-size: 3.5em;
 	font-weight: bold;
-	height: 1.4em;
+	height: 2em;
 	margin-bottom: 0px;
 }
 
@@ -195,7 +193,7 @@ li{
 }
 
 .project_image{
-	width: 800px;
+	width: 500px;
 	height: 300px;
 	border: 1px solid gray;
 	margin-top: 20px;
@@ -204,6 +202,6 @@ li{
 }
 
 .project_detail{
-	width: 90%;
+	width: 95%;
 	display:inline-block;
 }
