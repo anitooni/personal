@@ -195,8 +195,8 @@ li{
 }
 
 .project_image{
-	width: 150px;
-	height: 150px;
+	width: 800px;
+	height: 300px;
 	border: 1px solid gray;
 	margin-top: 20px;
 	margin-right: 20px;
@@ -204,6 +204,6 @@ li{
 }
 
 .project_detail{
-	width: 70%;
+	width: 90%;
 	display:inline-block;
 }
