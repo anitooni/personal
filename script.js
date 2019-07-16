@@ -1,48 +1,32 @@
-$('ul li:has(ul)').addClass('has-submenu');
-$('ul li ul').addClass('sub-menu');
-$('ul.dropdown li').hover(function () {
-    $(this).addClass('hover');
-}, function () {
-    $(this).removeClass('hover');
+var nav           = $('nav');
+var menu          = $('.menu');
+var menuContainer = $('.menu-container');
+var toggle        = $('.toggle');
+var subToggle     = $('.has-children span');
+var back          = '<div class="hide-submenu"></div>';
+var subHide       = $(back);
+
+// Toggle menu
+toggle.on("click", function() {
+  nav.toggleClass('is-visible');
+  if(menu.hasClass('visually-hidden')) {
+    menu.toggleClass('visually-hidden is-visible')
+  } else {
+    menu.removeClass('is-visible');
+    // Wait for CSS animation
+    setTimeout(function() {
+      menu.addClass('visually-hidden');
+    }, 200);
+  }
 });
-var $menu = $('#menu'), $menulink = $('#spinner-form'), $search = $('#search'), $search_box = $('.search_box'), $menuTrigger = $('.has-submenu > a');
-$menulink.click(function (e) {
-    $menulink.toggleClass('active');
-    $menu.toggleClass('active');
-    if ($search.hasClass('active')) {
-        $('.menu.active').css('padding-top', '50px');
-    }
-});
-$search.click(function (e) {
-    e.preventDefault();
-    $search_box.toggleClass('active');
-});
-$menuTrigger.click(function (e) {
-    e.preventDefault();
-    var t = $(this);
-    t.toggleClass('active').next('ul').toggleClass('active');
-});
-$('ul li:has(ul)');
-$(function () {
-    var e = $(document).scrollTop();
-    var t = $('.nav_wrapper').outerHeight();
-    $(window).scroll(function () {
-        var n = $(document).scrollTop();
-        if ($(document).scrollTop() >= 50) {
-            $('.nav_wrapper').css('position', 'fixed');
-        } else {
-            $('.nav_wrapper').css('position', 'fixed');
-        }
-        if (n > t) {
-            $('.nav_wrapper').addClass('scroll');
-        } else {
-            $('.nav_wrapper').removeClass('scroll');
-        }
-        if (n > e) {
-            $('.nav_wrapper').removeClass('no-scroll');
-        } else {
-            $('.nav_wrapper').addClass('no-scroll');
-        }
-        e = $(document).scrollTop();
-    });
-});
+
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-36251023-1']);
+_gaq.push(['_setDomainName', 'jqueryscript.net']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();

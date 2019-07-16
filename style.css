@@ -7,49 +7,30 @@ body{
 	color: #444444;
 }
 
-li{
-	list-style-type: none;
-}
-
 .frame{
-	margin-top: 70px;
+	position: relative;
+	margin-top: 60px;
 }
 
 .contatiner{
 	overflow: hidden;
 }
 
-.nav_content{
-	width:100%;
-}
-
-.nav_list{
-	font-size: 2em;
-	font-weight: bold;
-	list-style: none;
-	margin: 15px;
-	padding: 10px;
-}
-
-.goHome{
-	text-decoration: none;
-	color: white;
-}
-
-.nav_item{
-}
-
-.nav_link{
-	display:block;
-	color: black;
-	text-decoration: none;
-	margin-top: 10px;
-	margin-left: 20px;
-}
-
 .content{
-		margin-left: 80px;
-		margin-right: 80px;
+		margin-left: 20px;
+		margin-right: 20px;
+}
+@media all and (min-width: 768px){
+	.content{
+			margin-left: 80px;
+			margin-right: 80px;
+	}
+}
+@media all and (min-width:1280px){
+	.content{
+			margin: 0 auto;
+			width: 1024px;
+	}
 }
 
 .content_detail{
@@ -65,10 +46,19 @@ li{
 .about_title{
 	font-family: 'Oswald', sans-serif;
 	color: black;
-	font-size: 3.5em;
 	font-weight: bold;
-	height: 1.6em;
 	margin-bottom: 0px;
+}
+
+.about_title{
+	font-size: 1.5em;
+	height: 1.5em;
+}
+@media (min-width: 768px){
+	.about_title{
+		font-size: 3em;
+		height: 1.6em;
+	}
 }
 
 .about_content{
@@ -79,15 +69,30 @@ li{
 .JobTitle{
 	font-family: 'Oswald', sans-serif;
 	color: black;
-	font-size: 2em;
 	margin-top: 5px;
 	margin-bottom: 0px;
 }
 
+.JobTitle{
+	font-size: 1.2em;
+}
+@media (min-width: 768px){
+	.JobTitle{
+		font-size: 2em;
+	}
+}
+
 .Expertise{
-	font-size: 1em;
-	margin-top: 5px;
 	color: gray;
+	margin-top: 5px;
+}
+.Expertise{
+	font-size: 0.8em;
+}
+@media (min-width: 768px){
+	.Expertise{
+		font-size: 1em;
+	}
 }
 
 .job_detail{
@@ -95,55 +100,31 @@ li{
 }
 
 .workdays{
+	margin-bottom: 0px;
+}
+
+.cert_date, .workdays{
 	font-weight: bold;
 	color: #d44ed9;
+}
+.cert_date, .workdays{
 	font-size: 0.75em;
-	margin-bottom: 0px;
 }
-
-.cert_date{
-	font-weight: bold;
-	font-size: 0.75em;
-	color: #d44ed9;
-}
-
-.circle_filled{
-	margin-right: 2px;
-	width: 10px;
-	height: 10px;
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	border-radius: 10px;
-	background: black;
-	display: inline-block;
-	margin-bottom: 0px;
-}
-
-.circle_blanked{
-	margin-right: 2px;
-	width: 8px;
-	height: 8px;
-	-webkit-border-radius: 8px;
-	-moz-border-radius: 8px;
-	border-radius: 8px;
-	border: 1px solid black;
-	background: white;
-	display: inline-block;
-	margin-bottom: 0px;
-}
-
-.skill_level{
-	margin-left: 10px;
-	margin-right: 15px;
-	display: inline;
-	font-weight: bold;
-	font-size: 1em;
-	color: gray;
+@media (min-width: 768px){
+	.cert_date, .workdays{
+		font-size: 1em;
+	}
 }
 
 .skill_sets{
 	font-size: 1em;
-	margin-bottom: 25px;
+	margin-bottom: 0.5em;
+}
+@media (min-width: 768px){
+	.skill_sets{
+		font-size: 1.5em;
+		margin-bottom: 1em;
+	}
 }
 
 /* Projects Page Styles */
@@ -153,8 +134,9 @@ li{
 }
 
 .project_image{
-	width: 500px;
-	height: 300px;
+	text-align: center;
+	width: 100%;
+	height: 100px;
 	border: 1px solid gray;
 	margin-top: 20px;
 	margin-right: 20px;
