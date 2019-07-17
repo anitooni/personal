@@ -67,6 +67,7 @@ body{
 }
 
 .JobTitle{
+	line-height: 130%;
 	font-family: 'Oswald', sans-serif;
 	color: black;
 	margin-top: 5px;
@@ -74,7 +75,7 @@ body{
 }
 
 .JobTitle{
-	font-size: 1.2em;
+	font-size: 1.5em;
 }
 @media (min-width: 768px){
 	.JobTitle{
@@ -129,21 +130,77 @@ body{
 
 /* Projects Page Styles */
 .project_list{
-	display:inline-block;
+	display:table;
 	margin-bottom: 30px;
+}
+
+.image{
+
 }
 
 .project_image{
 	text-align: center;
-	width: 100%;
-	height: 100px;
 	border: 1px solid gray;
-	margin-top: 20px;
-	margin-right: 20px;
-	float: left;
+}
+.project_image{
+	width: 300px;
+	height: 200px;
+	display: table-cell;
+}
+@media (min-width: 768px){
+	.project_image{
+		width: 250px;
+		height: 250px;
+		margin-right: 30px;
+		float:left;
+		display: table-cell;
+		vertical-align: middle;
+	}
 }
 
 .project_detail{
 	width: 95%;
-	display:inline-block;
+	display:inline;
+}
+@media (min-width: 768px){
+	.project_detail{
+		width: 95%;
+		display:table-cell;
+		vertical-align: top;
+	}
+}
+
+/* Works Page Styles*/
+.type_design{
+	color: #e67422;
+	border: 2px solid #e67422;
+}
+.type_artwork{
+	color: #34b816;
+	border: 2px solid #34b816;
+}
+.type_program{
+	color: #3d5be0;
+	border: 2px solid #3d5be0;
+}
+
+.type_design, .type_artwork, .type_program{
+	margin-top: 16px;
+	margin-bottom: 0;
+	font-weight:bold;
+	text-align: center;
+	border-radius: 10px;
+}
+.type_design, .type_artwork, .type_program{
+	font-size: 0.6em;
+	width: 60px;
+	height: 18px;
+	display: inline-block;
+}
+@media (min-width: 768px){
+	.type_design, .type_artwork, .type_program{
+		font-size: 0.8em;
+		width: 80px;
+		height: 22px;
+	}
 }
