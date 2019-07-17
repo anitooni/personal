@@ -191,6 +191,7 @@ body{
 	text-align: center;
 	border-radius: 10px;
 }
+
 .type_design, .type_artwork, .type_program{
 	font-size: 0.6em;
 	width: 60px;
@@ -202,5 +203,6 @@ body{
 		font-size: 0.8em;
 		width: 80px;
 		height: 22px;
+		display: inline-block;
 	}
 }
