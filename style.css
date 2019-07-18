@@ -29,7 +29,7 @@ body{
 @media all and (min-width:1280px){
 	.content{
 			margin: 0 auto;
-			width: 1024px;
+			width: 1124px;
 	}
 }
 
@@ -131,7 +131,7 @@ body{
 
 /* Projects Page Styles */
 .project_list{
-	display:table;
+	position: relative;
 	margin-bottom: 30px;
 }
 
@@ -140,22 +140,23 @@ body{
 }
 
 .project_image{
+	margin-top: 20px;
+	position: relative;
 	text-align: center;
 	border: 1px solid gray;
 }
 .project_image{
-	width: 300px;
+	width: 100%;
 	height: 200px;
-	display: table-cell;
+	display: inline-block;
 }
 @media (min-width: 768px){
 	.project_image{
 		width: 250px;
 		height: 250px;
 		margin-right: 30px;
-		float:left;
-		display: table-cell;
-		vertical-align: middle;
+		display: inline-block;
+		vertical-align: top;
 	}
 }
 
@@ -165,9 +166,9 @@ body{
 }
 @media (min-width: 768px){
 	.project_detail{
-		width: 95%;
-		display:table-cell;
-		vertical-align: top;
+		width: 60%;
+		display:inline-block;
+
 	}
 }
 
@@ -186,7 +187,7 @@ body{
 }
 
 .type_design, .type_artwork, .type_program{
-	margin-top: 16px;
+	margin-top: 25px;
 	margin-bottom: 0;
 	font-weight:bold;
 	text-align: center;
@@ -197,14 +198,14 @@ body{
 	font-size: 0.6em;
 	width: 60px;
 	height: 18px;
-	display: inline-block;
+	display: block;
 }
 @media (min-width: 768px){
 	.type_design, .type_artwork, .type_program{
 		font-size: 0.8em;
 		width: 80px;
 		height: 22px;
-		display: inline-block;
+		display: block;
 	}
 }
 
@@ -215,7 +216,6 @@ body{
 }
 
 .blog_wrapper{
-	align-content: center;
 	position:relative;
 	display:inline-block;
 	overflow: hidden;
@@ -300,4 +300,70 @@ body{
 .blog_detail{
 	font-size: 0.8em;
 	color: #fff;
+}
+
+/*Lecture Page Styles*/
+.lecture_list{
+	display:relative;
+	margin-bottom: 30px;
+}
+
+.lecture_image_m, .lecture_image_p{
+	position: relative;
+	display: none;
+	text-align: center;
+	border: 1px solid gray;
+}
+
+.lecture_image_m{
+	display:inline-block;
+	width: 100%;
+	height: 200px;
+}
+.lecture_image_p{
+	display: none;
+}
+@media (min-width: 768px){
+	.lecture_image_m{
+		display: none;
+	}
+	.lecture_image_p{
+		display:inline-block;
+		width: 45%;
+		height: 250px;
+		margin-left: 20px;
+	}
+}
+
+/*
+.lecture_image{
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	border: 1px solid gray;
+}
+.lecture_image{
+	width: 100%;
+	height: 200px;
+}
+@media (min-width: 768px){
+	.lecture_image{
+		width: 45%;
+		height: 250px;
+		margin-left: 20px;
+	}
+}
+*/
+
+.lecture_detail{
+	width: 95%;
+	display:inline;
+}
+@media (min-width: 768px){
+	.lecture_detail{
+		width: 50%;
+		margin-right: 15px;
+		display:inline-block;
+		vertical-align: top;
+	}
 }
