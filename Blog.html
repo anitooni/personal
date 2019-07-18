@@ -13,7 +13,12 @@
 
 <body>
 	<div class="frame">
+		<script type="text/javascript">
+		includeHTML(document.querySelector('#navi'), 'menu.html');
+		</script>
+		<div id="navi"></div>
 
+		<!--
 		<nav>
 			<div class="toggle"><span>Menu</span></div>
 			<div class="menu-container">
@@ -28,6 +33,7 @@
 				</ul>
 			</div>
 		</nav>
+	-->
 
     	<div class = "container">
             <div class = "content">
@@ -37,13 +43,47 @@
 
 									<p>Hypertext Markup Language (HTML) is the standard markup language for <strong>creating <u>web</u> pages</strong> and web applications.Web browsers receive HTML documents from a web server or from local storage and render them into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.</p>
                 </div>
+
+								<hr></hr>
+
+								<div class="blog_wrapper_all">
+
+									<div class="blog_wrapper">
+										<div class="blog_image"></div>
+										<div class="blog_description">
+											<div class="blog_type_info">INFORMATION</div>
+											<div class="blog_content">DESCRIPTRION DESCRIPTRION</div>
+											<div class="blog_detail">DESCRIPTRION DESCRIPTRION</div>
+										</div>
+									</div>
+
+									<div class="blog_wrapper">
+										<div class="blog_image"></div>
+										<div class="blog_description">
+											<div class="blog_type_thinking">THINKING</div>
+											<div class="blog_content">DESCRIPTRION DESCRIPTRION</div>
+											<div class="blog_detail">DESCRIPTRION DESCRIPTRION</div>
+										</div>
+									</div>
+
+									<div class="blog_wrapper">
+										<div class="blog_image"></div>
+										<div class="blog_description">
+											<div class="blog_type_experience">EXPERIENCE</div>
+											<div class="blog_content">DESCRIPTRION DESCRIPTRION</div>
+											<div class="blog_detail">DESCRIPTRION DESCRIPTRION</div>
+										</div>
+									</div>
+
+								</div>
+
+
             		<div class = "content_footer">
 	                <p>Here is the FOOTER area</p>
                 </div>
             </div>
         </div>
     </div>
-
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 		<script src="./script.js"></script>
 </body>
