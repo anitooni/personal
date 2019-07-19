@@ -317,6 +317,7 @@ body{
 
 .lecture_image_m{
 	display:inline-block;
+	margin-bottom: 20px;
 	width: 100%;
 	height: 200px;
 }
@@ -334,26 +335,6 @@ body{
 		margin-left: 20px;
 	}
 }
-
-/*
-.lecture_image{
-	position: relative;
-	display: inline-block;
-	text-align: center;
-	border: 1px solid gray;
-}
-.lecture_image{
-	width: 100%;
-	height: 200px;
-}
-@media (min-width: 768px){
-	.lecture_image{
-		width: 45%;
-		height: 250px;
-		margin-left: 20px;
-	}
-}
-*/
 
 .lecture_detail{
 	width: 95%;

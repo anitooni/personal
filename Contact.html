@@ -9,25 +9,14 @@
 <link rel="stylesheet" href="./normalize.css">
 <link rel="stylesheet" href="./style.css">
 <link rel="stylesheet" href="./style_menu.css">
+<link rel="stylesheet" href="./contact.css">
+<link rel="stylesheet" href="./fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<script src="./MenuLoad.js"></script>
 </head>
 
 <body>
 	<div class="frame">
-
-		<nav>
-			<div class="toggle"><span>Menu</span></div>
-			<div class="menu-container">
-				<ul class="menu visually-hidden">
-					<li><a href="./index.html">HOME</a></li>
-					<li><a href="./About.html">ABOUT</a></li>
-					<li><a href="./Projects.html">PROJECTS</a></li>
-					<li><a href="./Works.html">WORKS</a></li>
-					<li><a href="./Blog.html">BLOG</a></li>
-					<li><a href="./Lecture.html">LECTURE</a></li>
-					<li><a href="./Contact.html">CONTACT</a></li>
-				</ul>
-			</div>
-		</nav>
+		<script>loadMenu();</script>
 
     	<div class = "container">
             <div class = "content">
@@ -36,6 +25,37 @@
 								<hr></hr>
 									<p>Hypertext Markup Language (HTML) is the standard markup language for <strong>creating <u>web</u> pages</strong> and web applications.Web browsers receive HTML documents from a web server or from local storage and render them into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.</p>
                 </div>
+
+								<hr></hr>
+								<div class="wrap-contact100">
+									<form class="contact100-form validate-form" action="mailto:anitooni@gmail.com" method="post" en>
+											<div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Name is required">
+											<span class="label-input100">Your Name</span>
+											<input class="input100" type="text" name="name" placeholder="Enter your name">
+											<span class="focus-input100"></span>
+										</div>
+
+										<div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+											<span class="label-input100">Email</span>
+											<input class="input100" type="text" name="email" placeholder="Enter your email addess">
+											<span class="focus-input100"></span>
+										</div>
+
+										<div class="wrap-input100 validate-input" data-validate = "Message is required">
+											<span class="label-input100">Message</span>
+											<textarea class="input100" name="message" placeholder="Your message here..."></textarea>
+											<span class="focus-input100"></span>
+										</div>
+
+										<div class="container-contact100-form-btn">
+											<button class="contact100-form-btn">
+												<span>
+													Submit
+												</span>
+											</button>
+										</div>
+									</form>
+								</div>
             		<div class = "content_footer">
 	                <p>Here is the FOOTER area</p>
                 </div>
@@ -45,5 +65,6 @@
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 		<script src="./script.js"></script>
+		<script src="./contact.js"></script>
 </body>
 </html>

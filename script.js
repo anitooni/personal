@@ -44,3 +44,7 @@ function includeHTML(divContainer, urlHTML) {
     xhttp.open("GET", urlHTML, true);
     xhttp.send();
 }
+
+function loadMenu(){  
+  document.write("<li><a href='./index.html'>HOME</a></li>");
+};
