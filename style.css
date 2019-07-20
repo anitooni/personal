@@ -37,12 +37,6 @@ body{
 	margin: 0 auto;
 }
 
-.content_footer{
-	border-top: 1px solid gray;
-	margin-top: 10px;
-	text-align: center;
-}
-
 /* About Page Styles */
 .about_title{
 	font-family: 'Oswald', sans-serif;
@@ -347,4 +341,140 @@ body{
 		display:inline-block;
 		vertical-align: top;
 	}
+}
+
+/*Footer Styles */
+.content_footer{
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background: linear-gradient(0, #141E30, #243B55);
+}
+
+.footer_content_wrapper, .footer_intro, .footer_outro{
+		display: block;
+		margin-left: 20px;
+		margin-right: 20px;
+}
+@media all and (min-width: 768px){
+	.footer_content_wrapper, .footer_intro, .footer_outro{
+			display: flex;
+			margin-left: 80px;
+			margin-right: 80px;
+	}
+}
+@media all and (min-width:1280px){
+	.footer_content_wrapper, .footer_intro, .footer_outro{
+			display: flex;
+			margin: 0 auto;
+			width: 1124px;
+	}
+}
+
+.footer_intro{
+	font-size: 0.9em;
+	color: #ddd;
+	padding-top: 30px;
+	margin-bottom: 40px;
+}
+
+.footer_intro > p{
+	margin: 0;
+}
+
+.footer_outro{
+	border-top: 1px solid #555;
+	font-size: 0.9em;
+	padding-bottom: 30px;
+	color: #ddd;
+}
+
+.myName{
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.footer_nav, .footer_contact, .footer_follow{
+	position: relative;
+	display: inline-block;
+	height: inherit;
+	margin-bottom: 40px;
+}
+.footer_nav, .footer_contact, .footer_follow{
+	width:100%;
+}
+@media all and (min-width: 768px){
+	.footer_nav, .footer_contact, .footer_follow{
+		margin-bottom: 10px;
+		width:32%;
+	}
+}
+
+
+.footer_title{
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.2em;
+	color: #ddd;
+}
+.footer_title{
+	margin-bottom: 10px;
+}
+@media all and (min-width: 768px){
+	.footer_title{
+		margin-bottom: 20px;
+	}
+}
+
+.footer_menu{
+	font-size: 0.9em;
+	padding-bottom: 0.5em;
+}
+
+.footer_menu > a, .footer_contact_detail > a{
+	color: #ddd !important;
+}
+
+.footer_contact_wrapper{
+}
+
+.footer_icon{
+	text-align: center;
+	font-size: 0.9em;
+	color: #ddd;
+
+	position:relative;
+	display: inline-block;
+	line-height: 0.9em;
+	width: 0.9em;
+	height: 0.9em;
+}
+
+.footer_contact_detail{
+	margin: 0 auto;
+	padding-left: 5px;
+	font-size: 0.9em;
+	color: #ddd;
+	display: inline-block;
+}
+
+.social_icon{
+	text-align: center;
+	font-size: 1.2em;
+	color: #ddd;
+
+	margin-right: 8px;
+	margin-bottom: 12px;
+	position:relative;
+	display: inline-block;
+	vertical-align: middle;
+	width: 2em;
+	height: 2em;
+	line-height: 2em;
+	border: 1px solid #bbb;
+}
+
+.social_icon > img{
+	padding-top: 5px;
+	width: 1.5em;
+	height: 1.5em;
 }

@@ -159,7 +159,7 @@ button:hover {
   left: 0;
   width: 0;
   height: 2px;
-  background: #ff4b5a;
+  background: #243B55;
 }
 
 
@@ -209,12 +209,13 @@ textarea.input100 {
   padding: 0 20px;
   min-width: 160px;
   height: 50px;
-  background-color: #ff4b5a;
+  background-color: #fff;
+	border : 1px solid #444;
   border-radius: 5px;
 
   font-family: Poppins-Medium;
   font-size: 16px;
-  color: #fff;
+  color: #444;
   line-height: 1.2;
 
   -webkit-transition: all 0.4s;
@@ -231,7 +232,8 @@ textarea.input100 {
 }
 
 .contact100-form-btn:hover {
-  background-color: #333333;
+  background-color: #243B55;
+	color: #fff;
 }
 
 .contact100-form-btn:hover i {
@@ -254,7 +256,7 @@ textarea.input100 {
   position: absolute;
   max-width: 70%;
   background-color: #fff;
-  border: 1px solid #c80000;
+  border: 1px solid #243B55;
   border-radius: 2px;
   padding: 4px 25px 4px 10px;
   top: 58%;
@@ -267,7 +269,7 @@ textarea.input100 {
   pointer-events: none;
 
   font-family: Poppins-Medium;
-  color: #c80000;
+  color: #243B55;
   font-size: 13px;
   line-height: 1.4;
   text-align: left;
@@ -286,7 +288,7 @@ textarea.input100 {
   font-family: FontAwesome;
   display: block;
   position: absolute;
-  color: #c80000;
+  color: #243B55;
   font-size: 16px;
   top: 58%;
   -webkit-transform: translateY(-50%);
