@@ -59,7 +59,7 @@ function loadFooter(){
   "    </div>",
   "</div>",
   "<div class='footer_outro'>",
-  "  <p>Copylight 2019 | Sunwoo Kim, Thanks to visit.</p>",
+  "  <p>Copyright 2019 | Sunwoo Kim, Thanks to visit.</p>",
   "</div>"
   );
 };
