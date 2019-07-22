@@ -343,6 +343,88 @@ body{
 	}
 }
 
+/* Contact styles */
+.contact_content_wrapper{
+		margin-top: 30px;
+		margin-bottom: 50px;
+		display: block;
+		width: 100%;
+}
+@media all and (min-width: 768px){
+	.contact_content_wrapper{
+			display: flex;
+	}
+}
+@media all and (min-width:1280px){
+	.contact_content_wrapper{
+			display: flex;
+			margin: 0 auto;
+			width: 1124px;
+	}
+}
+
+.contact_contacts, .contact_follow{
+	position: relative;
+	display: inline-block;
+	height: inherit;
+	margin-bottom: 40px;
+}
+.contact_contacts, .contact_follow{
+	width:100%;
+}
+@media all and (min-width: 768px){
+	.contact_contacts, .contact_follow{
+		margin-bottom: 10px;
+		width:45%;
+	}
+}
+
+.contact_contacts>.JobTitle, .contact_follow>.JobTitle{
+	margin-bottom: 20px;
+}
+
+.contact_icon{
+	text-align: center;
+	font-size: 1.3em;
+	color: #444;
+
+	position:relative;
+	display: inline-block;
+	line-height: 1.3em;
+	width: 1.3em;
+	height: 1.3em;
+}
+
+.contact_contact_detail{
+	margin: 0 auto;
+	padding-left: 5px;
+	font-size: 1.3em;
+	color: #444;
+	display: inline-block;
+}
+
+.contact_social_icon{
+	text-align: center;
+	font-size: 1.5em;
+	color: #444;
+
+	margin-right: 8px;
+	margin-bottom: 12px;
+	position:relative;
+	display: inline-block;
+	vertical-align: middle;
+	width: 2em;
+	height: 2em;
+	line-height: 2em;
+	border: 1px solid #444;
+}
+
+.contact_social_icon > img{
+	padding-top: 7px;
+	width: 1.5em;
+	height: 1.5em;
+}
+
 /*Footer Styles */
 .content_footer{
 	width: 100%;
