@@ -52,7 +52,7 @@ function loadFooter(){
   "          <div class='social_icon'><i class='fab fa-medium-m'></i></div>",
   "          </a>",
 
-  "          <a href= 'https://brunch.co.kr/@anitooni' target='_blank'>",
+  "          <a href= 'https://brunch.co.kr/@anitooni#articles' target='_blank'>",
   "          <div class='social_icon'><img src='./images/brunch.png'></img></div>",
   "          </a>",
   "      </div>",
