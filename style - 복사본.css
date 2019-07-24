@@ -255,29 +255,31 @@ body{
 /*Blog Page Styles*/
 
 .blog_wrapper_all{
-	width: 100%;
 	position: relative;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
+
+	margin: 0 auto;
 }
 
 .blog_wrapper{
 	position:relative;
 	display:inline-block;
 	overflow: hidden;
+	margin-top: 25px;
+	margin-bottom: 25px;
 	background: #fff;
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 }
 .blog_wrapper{
 	width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
 	height: 300px;
-	margin-top: 25px;
-	margin-bottom: 25px;
 }
 @media (min-width: 768px){
 	.blog_wrapper{
 		width: 47%;
+		margin-left: 12px;
+		margin-right: 12px;
 		height: 400px;
 	}
 }
