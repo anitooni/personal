@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-.link_button {  
+.link_button {
   display: inline-block;
   text-align: center;
   width: 150px;
@@ -25,5 +25,16 @@
 
 .button_text{
   line-height: 1em;
+  vertical-align: middle;
+}
+
+.home_content>.link_button{
+  display: block;
+  font-size: 0.8em;
+  width: 150px;
+  height: 2em;
+}
+.home_button_text{
+  line-height: 2em;
   vertical-align: middle;
 }

@@ -8,28 +8,137 @@
 <link rel="stylesheet" href="./normalize.css">
 <link rel="stylesheet" href="./style.css">
 <link rel="stylesheet" href="./style_menu.css">
+<link rel="stylesheet" href="./style_button.css">
 
 <script src="./MenuLoad.js"></script>
 <script src="./FooterLoad.js"></script>
 <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 </head>
 
 <body>
-	<div class="frame">
 		<script>loadMenu();</script>
-    	<div class = "container">
-            <div class = "content">
-            	<div class = "content_detail">
-	                <h1>Here is the CONTENT area</h1>
-									<p>Hypertext Markup Language (HTML) is the standard markup language for <strong>creating <u>web</u> pages</strong> and web applications.Web browsers receive HTML documents from a web server or from local storage and render them into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.</p>
-                </div>
-            </div>
-        </div>
+
+    <div class = "container">
+    	<div class = "home_bg">
+				<div data-aos="fade-up" data-aos-duration="800" class="home_text">
+					Hello,
+					<br>I'm Sunwoo Kim.
+				</div>
+				<div data-aos="fade-up" data-aos-duration="1000" class="home_text_detail">
+					User Interface Designer expertise in Infotainment Systems
+				</div>
+    		<img src="./images/Home/home_main.jpg" alt="Sorry, No image...">
+    	</div>
     </div>
+
+		<div class="home_wrapper">
+			<div class="home_content">
+				<div data-aos="fade-up" class = "home_title"><a href="./About.html">EXPERIENCES</a></div>
+				<hr data-aos="fade-up">
+
+				<div data-aos="fade-up" class = "home_workdays">January 2016 - Present</div>
+				<div data-aos="fade-up" class = "home_JobTitle">PRINCIPLE RESEARCH ENGINEER</div>
+				<div data-aos="fade-up" class = "home_job_detail">
+					Lead Product Development of In-vehicle Audio and Navigation Systems.
+					Design user interface wireframe and user scenario for Korea, US, China, Middle East, Europe markets.
+					<br>@ Hyundai MOBIS
+				</div>
+
+				<div data-aos="fade-up" class = "home_workdays">July 2007 - December 2015</div>
+				<div data-aos="fade-up" class = "home_JobTitle">RESEARCH ENGINEER</div>
+				<div data-aos="fade-up" class = "home_job_detail">
+				Support Product Development of In-vehicle Audio and Navigation Systems. Design user interface wireframe, user scenario and making high-fidelity interactive prototypes.
+				</div>
+
+				<div data-aos="fade-up" onclick="location.href = './About.html'" class="link_button">
+						<span class="home_button_text">More About Me</span>
+				</div>
+			</div>
+
+			<div class="home_content">
+				<div data-aos="fade-up" class = "home_title"><a href="./Projects.html">PROJECTS</a></div>
+				<hr data-aos="fade-up">
+
+				<div data-aos="fade-up" class = "home_workdays">March 2019 - Present</div>
+				<div data-aos="fade-up" class = "home_JobTitle">Server Based Voice Recognition for US market​</div>
+				<div data-aos="fade-up" class = "home_job_detail">
+						Designing topic, domain and conversational dialog with H company server voice recognition solution.
+				</div>
+
+				<div data-aos="fade-up" class = "home_workdays">June 2018 - Present</div>
+				<div data-aos="fade-up" class = "home_JobTitle">Server Based Voice Recognition for Indian market</div>
+
+				<div data-aos="fade-up" class = "home_job_detail">
+					Project Leader to manage schedule and define member’s R&R, Designer​ to define each domain's wireframe and user scenario with dialog for In-vehicle infotainment system.
+				</div>
+
+				<div data-aos="fade-up" onclick="location.href = './Projects.html'" class="link_button">
+						<span class="home_button_text">More Projects</span>
+				</div>
+			</div>
+
+			<div class="home_content">
+				<div data-aos="fade-up" class = "home_title"><a href="./Blog.html">BLOG</a></div>
+				<hr data-aos="fade-up">
+
+				<div data-aos="fade-up" class="home_blog_wrapper">
+					<a href="https://brunch.co.kr/@anitooni/10" target="_blank">
+					<span class="home_JobTitle">I'm still afraid to say 'I'm UX Designer.'</span>
+	   			<br><span class="home_job_detail">User Expereince design? Can you really do that?</span>
+				</a>
+			 </div>
+
+			 <div data-aos="fade-up" class="home_blog_wrapper">
+			 	<a href="https://brunch.co.kr/@anitooni/3" target="_blank">
+			 	<span class="home_JobTitle">The detail of Time&Date</span>
+			 	<br><span class="home_job_detail">Convention is more powerful than global standard</span>
+			 </a>
+			 </div>
+
+			 <div data-aos="fade-up" class="home_blog_wrapper">
+			  <a href="https://brunch.co.kr/@anitooni/2" target="_blank">
+			  <span class="home_JobTitle">Multi-language. It's Basic! Basic!</span>
+			  <br><span class="home_job_detail">Language is so familiar and natural</span>
+			 </a>
+			 </div>
+
+			 <div data-aos="fade-up" onclick="location.href = './Blog.html'" class="link_button">
+					 <span class="home_button_text">More Blog</span>
+			 </div>
+			</div>
+
+			<div class="home_content">
+				<div data-aos="fade-up" class = "home_title"><a href="./Lecture.html">LECTURE/CLASS</a></div>
+
+				<hr data-aos="fade-up">
+
+				<div data-aos="fade-up" class = "home_JobTitle">Year-End/Year-Start Workshop</div>
+				<div data-aos="fade-up" class = "home_job_detail">
+					A life planning workshop at every December or January. Rebuild my life's value priority, make year's goal and detail plan.
+				</div>
+
+				<div data-aos="fade-up" class = "home_JobTitle">UI Planning Class</div>
+				<div data-aos="fade-up" class = "home_job_detail">
+					Class for requirement analysis, build information architecture, UI design and user scenario.
+				</div>
+
+				<div data-aos="fade-up" onclick="location.href = './Lecture.html'" class="link_button">
+					 <span class="home_button_text">See Detail</span>
+				</div>
+			</div>
+		</div>
+
 		<div class = "content_footer">
 			<script>loadFooter();</script>
 		</div>
+
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 		<script src="./script.js"></script>
+		<script>AOS.init();</script>
+
 </body>
 </html>
