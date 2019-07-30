@@ -1,6 +1,6 @@
 function loadMenu(){
   document.write(
-  "  <nav>",
+  "  <nav>",  
   "    <div class='toggle'><span>Menu</span></div>",
   "    <div class='menu-container'>",
   "    <ul class='menu visually-hidden'>",

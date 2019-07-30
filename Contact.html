@@ -13,6 +13,10 @@
 <script src="./MenuLoad.js"></script>
 <script src="./FooterLoad.js"></script>
 <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 </head>
 
 <body>
@@ -29,7 +33,7 @@
 									<div class="about_main">
 										<p class = "about_title">CONTACT INFO</p>
 
-										<p class = "about_content">
+										<p data-aos="fade-up" data-aos-duration="1000" class = "about_content">
 											Thanks to contact me. I'm always open and want to talk any topic with you.
 											<br>Feel free to follow on
 											<a href="https://www.facebook.com/anitooni" target="
@@ -43,7 +47,7 @@
 
 								<div class='contact_content_wrapper'>
 
-								<div class='contact_contacts'>
+								<div data-aos="fade-up" data-aos-duration="1000" class='contact_contacts'>
 							     <div class='JobTitle'>CONTACTS</div>
 							      <div class='contact_wrapper'>
 							          <div class='contact_mail'>
@@ -57,7 +61,7 @@
 							      </div>
         				</div>
 
-						    <div class='contact_follow'>
+						    <div data-aos="fade-up" data-aos-duration="1000" class='contact_follow'>
 								      <div class='JobTitle'>FOLLOW ME</div>
 								      <div class='follow_wrapper'>
 								        <a href= 'https://www.facebook.com/anitooni' target='_blank'>
@@ -91,6 +95,6 @@
 		</div>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 		<script src="./script.js"></script>
-		<script src="./contact.js"></script>
+		<script>AOS.init();</script>
 </body>
 </html>

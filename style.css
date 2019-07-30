@@ -1,9 +1,14 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans|Oswald|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800');
 /* CSS Document */
 
-body{
+body:lang(en){
 	font: 16px/1.8 'Open Sans', 'Roboto', 'Gotham', "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #444444;
+}
+body:lang(ko){
+	font: 16px/1.8 'Nanum Gothic', sans-serif;
 	color: #444444;
 }
 
@@ -36,6 +41,36 @@ body{
 
 .content_detail{
 	margin: 0 auto;
+}
+/* Language Selection */
+.language{
+	position: absolute;
+	z-index: 1500;
+	top: 10px;
+}
+.language{
+		left: 2%;
+}
+@media all and (min-width: 768px){
+	.language{
+			left: 11%;
+	}
+}
+@media all and (min-width:1280px){
+	.language{
+			left: 20%;
+	}
+}
+.language a{
+	color: #999 !important;
+}
+
+.Korean, .English{
+	font-size: 0.8em;
+	display: inline;
+	padding-right: 15px;
+	padding-left: 5px;
+	color: #fff;
 }
 
 /* Home Page Style */
@@ -83,7 +118,7 @@ body{
 	font-size: 1.8em;
 	line-height: 1.2em;
 	left: 5%;
-	top: 30%;
+	top: 25%;
 }
 @media all and (min-width: 768px){
 	.home_text{
@@ -104,9 +139,9 @@ body{
 .home_text_detail{
 	width: 200px;
 	line-height: 1.2em;
-	font-size: 0.8em;
+	font-size: 0.9em;
 	left: 5%;
-	top: 55%;
+	top: 52%;
 }
 @media all and (min-width: 768px){
 	.home_text_detail{
@@ -116,6 +151,13 @@ body{
 		left: 5%;
 		top: 60%;
 	}
+}
+
+.home_social_icon{
+	z-index: 11;
+	position: absolute;
+	left: 5%;
+	top: 80%;
 }
 
 .home_wrapper{
@@ -187,6 +229,39 @@ body{
 	margin-top: 1em;
 	margin-bottom: 20px;
 	line-height: 1.5em;
+}
+
+.h_social_icon{
+	text-align: center;
+	color: #fff;
+	background-color: rgba(36, 59, 85, 0.3);
+	position:relative;
+	display: inline-block;
+	vertical-align: middle;
+	border: 1px solid #fff;
+
+	margin-right: 4px;
+	font-size: 1.2em;
+	width: 2em;
+	height: 2em;
+	line-height: 2em;
+
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.h_social_icon > img{
+	padding-top: 5px;
+	width: 1.5em;
+	height: 1.5em;
+}
+
+.h_social_icon:hover {
+  background-color: #2a9dd1;
+	color: #fff;
+	border: 1px solid #2a9dd1;
 }
 
 /* About Page Styles */
@@ -852,10 +927,21 @@ body{
 	height: 2em;
 	line-height: 2em;
 	border: 1px solid #bbb;
+
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	transition: all 0.4s;
 }
 
 .social_icon > img{
 	padding-top: 5px;
 	width: 1.5em;
 	height: 1.5em;
+}
+
+.social_icon:hover {
+  background-color: #2a9dd1;
+	color: #fff;
+	border: 1px solid #2a9dd1;
 }

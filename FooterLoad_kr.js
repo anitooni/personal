@@ -1,8 +1,8 @@
 function loadFooter(){
   document.write(
   "<div class='footer_intro'>",
-  "    <p><span class='myName'>Sunwoo Kim</span>",
-  "    <br>In vehicle UI DESIGNER & ARCHITECT at HYUNDAI MOBIS</p>",
+  "    <p><span class='myName'>김선우 입니다.</span>",
+  "    <br>자동차 인포테인먼트 UI 디자이너/설계 @현대모비스</p>",
   "  </div>",
   "  <div class='footer_content_wrapper'>",
   "    <div class='footer_nav'>",
@@ -59,7 +59,7 @@ function loadFooter(){
   "    </div>",
   "</div>",
   "<div class='footer_outro'>",
-  "  <p>Copyright 2019 | Sunwoo Kim, Thanks to visit.</p>",
+  "  <p>Copyright 2019 | Sunwoo Kim | 즐겁게 보셨나요? 방문해 주셔서 감사합니다.</p>",
   "</div>"
   );
 };
