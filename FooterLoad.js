@@ -8,7 +8,7 @@ function loadFooter(){
   "    <div class='footer_nav'>",
   "      <div class='footer_title'>NAVIGATION</div>",
   "      <div class='footer_menu_wrapper'>",
-  "          <div class='footer_menu'><a href='./index.html'>HOME</a></div>",
+  "          <div class='footer_menu'><a href='./Home.html'>HOME</a></div>",
   "          <div class='footer_menu'><a href='./About.html'>ABOUT</a></div>",
   "          <div class='footer_menu'><a href='./Projects.html'>PROJECTS</a></div>",
   "          <div class='footer_menu'><a href='./Works.html'>WORKS</a></div>",
