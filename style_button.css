@@ -4,7 +4,7 @@
   display: inline-block;
   text-align: center;
   width: 150px;
-  height: 35px;
+  height: 2em;
   background-color: #fff;
 	border : 1px solid #444;
   border-radius: 5px;
@@ -28,13 +28,18 @@
   vertical-align: middle;
 }
 
-.home_content>.link_button{
+.home_content .link_button{
   display: block;
   font-size: 0.8em;
   width: 150px;
   height: 2em;
 }
+
 .home_button_text{
   line-height: 2em;
   vertical-align: middle;
+}
+
+.lecture_detail .link_button:lang(ko){
+  padding-top: 3px;
 }

@@ -1,6 +1,8 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans|Oswald|Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800');
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1:100,200,300,400,500,600,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Do+Hyeon:400');
 /* CSS Document */
 
 body:lang(en){
@@ -9,6 +11,7 @@ body:lang(en){
 }
 body:lang(ko){
 	font: 16px/1.8 'Nanum Gothic', sans-serif;
+	word-break: keep-all;
 	color: #444444;
 }
 
@@ -45,6 +48,7 @@ body:lang(ko){
 /* Language Selection */
 .language{
 	position: absolute;
+	position: fixed;
 	z-index: 1500;
 	top: 10px;
 }
@@ -112,6 +116,10 @@ body:lang(ko){
 	font-family: 'Oswald', sans-serif;
 	z-index: 10;
 	position: absolute;
+}
+.home_text:lang(ko){
+	font-family: 'Nanum Gothic', sans-serif;
+	font-weight: 900;
 }
 .home_text{
 	text-shadow: 1px 1px 1px #222;
@@ -218,6 +226,10 @@ body:lang(ko){
 	font-family: 'Oswald', sans-serif;
 	color: black;
 	font-size: 1.3em;
+}
+.home_JobTitle:lang(ko){
+	font-family: 'Nanum Gothic', sans-serif;
+	font-weight: bold;
 }
 .home_job_detail{
 	color: #444;
@@ -332,6 +344,10 @@ body:lang(ko){
 	color: black;
 	margin-top: 5px;
 	margin-bottom: 0px;
+}
+.JobTitle:lang(ko){
+	font-family: 'Nanum Gothic', sans-serif;
+	font-weight: 900;
 }
 
 .JobTitle{
@@ -640,11 +656,17 @@ body:lang(ko){
 }
 
 .blog_content{
+	width: 95%;
 	line-height: 130%;
 	font-family: 'Oswald', sans-serif;
 	font-size: 1.5em;
 	color: #ddd;
 	padding-bottom: 5px;
+}
+.blog_content:lang(ko){
+	font-family: 'Nanum Gothic', sans-serif;
+	padding-top: 5px;
+	font-weight: bold;
 }
 
 .blog_detail{
