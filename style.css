@@ -49,6 +49,7 @@ body:lang(ko){
 .language{
 	position: absolute;
 	position: fixed;
+	width: 50%;
 	z-index: 1500;
 	top: 10px;
 }
@@ -336,6 +337,12 @@ body:lang(ko){
 .about_content{
 	margin-top: 10px;
 	margin-bottom: 20px;
+	font-size: 0.9em;
+}
+@media (min-width: 768px){
+	.about_content{
+		font-size: 1em;
+	}
 }
 
 .JobTitle{
